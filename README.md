@@ -34,7 +34,7 @@ If you defeat all challengers you become the champion. If not you have to start 
 * HTML5
 * CSS
 * Javascript
-* Jquery
+* jQuery
 
 ## Website
 
