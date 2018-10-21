@@ -4,7 +4,7 @@
 
 A game that allows the user to select their favorite wrestler and battle their way to the championship.
 
-![Start](.assets/images/start.jpg)
+![Start](./assets/images/start.jpg)
 
 ## Instructions
 
