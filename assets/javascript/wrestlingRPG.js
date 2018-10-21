@@ -208,7 +208,7 @@ $(document).ready(function () {
         if (pinCount >= wrestlers.length) {
           clearMessage();
           $("#attack-button").off("click");
-          restartGame("You Won!!! GAME OVER!!!");
+          restartGame("You are the champion!!! GAME OVER!!!");
         }
       }
       // Increment turn counter. This is used to determine how much damage the character does
