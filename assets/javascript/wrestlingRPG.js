@@ -96,7 +96,7 @@ $(document).ready(function () {
   //function to restart the game after win or loss
   var restartGame = function (resultMessage) {
     //When the restart button is clicked, reload the page.
-    var restart = $("<button>Restart</button>").click(function () {
+    var restart = $("<button id='restart'>Restart</button>").click(function () {
       location.reload();
     });
 
@@ -104,8 +104,8 @@ $(document).ready(function () {
     var gameState = $("<div>").text(resultMessage);
 
     //Render the restart button and win/loss message to the page
-    $("body").append(gameState);
-    $("body").append(restart);
+    $("#game-message").append(gameState);
+    $("#game-message").append(restart);
   };
 
   // Function to clear the game message section
