@@ -5,7 +5,6 @@ body {
   background-position: center;
   color: white;
   text-shadow: 2px 2px black;
-  ;
 }
 
 h1 {
@@ -16,8 +15,8 @@ h1 {
 }
 
 img {
-  width: 125px;
-  height: 75px;
+  width: 130px;
+  height: 70px;
   border-radius: 10px;
 }
 
@@ -36,8 +35,8 @@ img {
 .character {
   display: inline-block;
   cursor: pointer;
-  background-color: grey;
-  border-color: grey;
+  background-color: blue;
+  border-color: black;
   border-style: solid;
   border-width: 3px;
 }
@@ -63,7 +62,7 @@ img {
 #available-to-attack-section .character {
   display: inline-block;
   cursor: pointer;
-  background-color: black;
+  background-color: grey;
   border-color: black;
   border-style: solid;
   border-width: 1px;
@@ -72,7 +71,7 @@ img {
 .opponent {
   display: inline-block;
   cursor: pointer;
-  background-color: black;
+  background-color: grey;
   border-color: black;
   border-style: solid;
   border-width: 1px;
@@ -81,29 +80,29 @@ img {
 
 #action .character {
   color: white;
-  background-color: red;
-  border-color: red;
+  background-color: black;
+  border-color: black;
 }
 
 .target-enemy {
   color: white;
-  background-color: red;
-  border-color: red;
+  background-color: black;
+  border-color: black;
 }
 
 #selected-character {
   width: 190px;
-  height: 160px;
+  height: 130px;
 }
 
 #attacker {
   width: 190px;
-  height: 160px;
+  height: 130px;
 }
 
 #opponent {
   width: 190px;
-  height: 160px;
+  height: 130px;
 }
 
 #opponent-name {
@@ -125,9 +124,18 @@ img {
 }
 
 #restart {
-  font-size: 20px;
-  background-color: green;
+  background-color: Green;
+  border: 1px;
+  border-color: black;
   color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-family: 'Anton', sans-serif;
+  text-shadow: 1px 1px black;
+  border-radius: 5px;
 }
 
 #turn-counter {
@@ -148,4 +156,19 @@ img {
 #main-game-section {
   width: 50%;
   display: inline-block;
+}
+
+#attack-button {
+  background-color: Red;
+  border: 1px;
+  border-color: black;
+  color: black;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-family: 'Anton', sans-serif;
+  text-shadow: 1px 1px grey;
+  border-radius: 10px;
 }

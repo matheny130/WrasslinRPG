@@ -96,7 +96,7 @@ $(document).ready(function () {
   //function to restart the game after win or loss
   var restartGame = function (resultMessage) {
     //When the restart button is clicked, reload the page.
-    var restart = $("<button id='restart'>Restart</button>").click(function () {
+    var restart = $("<br><button id='restart'>Restart</button>").click(function () {
       location.reload();
     });
 
