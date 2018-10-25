@@ -163,7 +163,7 @@ $(document).ready(function () {
     if ($("#opponent").children().length !== 0) {
       // Creates messages for our attack and opponent counter attack
       var attackMessage = "You attacked " + opponent.name + " for " + attacker.attack * turnCounter + " damage.";
-      var counterAttackMessage = opponent.name + " attacked you back for " + opponent.enemyAttackBack + " damage.";
+      var counterAttackMessage = opponent.name + " retaliated for " + opponent.enemyAttackBack + " damage.";
       clearMessage();
 
       // Reduce opponent's health by your attack value
@@ -197,7 +197,7 @@ $(document).ready(function () {
         // Remove your opponent's character card
         $("#opponent").empty();
 
-        var gameStateMessage = "You have defeated " + opponent.name + ", you can choose to fight another opponent."
+        var gameStateMessage = "You have defeated " + opponent.name + ", you can choose to fight another challenger."
         renderMessage(gameStateMessage);
 
         // Increment your pin count
@@ -215,9 +215,9 @@ $(document).ready(function () {
       turnCounter++;
     }
     else {
-      // If there is no opponent render and error message
+      // If there is no opponent render an error message
       clearMessage();
-      renderMessage("No opponent here.")
+      renderMessage("No challenger here.")
     }
   });
 });
