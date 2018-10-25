@@ -9,10 +9,10 @@ body {
 }
 
 h1 {
-  color: black;
+  color: rgb(2, 2, 138);
   font-size: 60px;
   font-family: 'Anton', sans-serif;
-  text-shadow: 3px 3px rgb(243, 5, 5);
+  text-shadow: 2px 2px rgb(250, 247, 247);
 }
 
 img {
@@ -141,6 +141,8 @@ img {
   font-size: 30px;
   width: 50%;
   font-family: 'Arvo', serif;
+  color: rgb(0, 0, 0);
+  text-shadow: 1px 1px rgb(247, 241, 241);
 }
 
 #main-game-section {
